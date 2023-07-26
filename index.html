@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye-hover-effect</title>
+    <script src="./app.js"></script>
+    <!-- CSS only -->
+    <style>
+        body {
+            background-color: black;
+            color: aliceblue;
+            padding: 0px;
+            margin: 0px;
+        }
+        main {
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+            position: relative;
+        }
+        #eyes, #eyes img{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <img id="anchor" src="./morty.png">
+        <div id="eyes">
+            <img class="eye" src="./ey2.png" style="top: 54px; right: 12px;">
+            <img class="eye" src="./ey2.png" style="top: 60px; right: 72px;">
+            <img class="eye" src="./ey2.png" style="bottom: 50px; left: 92px;">
+            <img class="eye" src="./ey2.png" style="bottom: 48px;left: 47px;">
+             
+        </div>
+    </main>
+</body>
+</html>
